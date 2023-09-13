@@ -1,0 +1,14 @@
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
+
+function Navbar(){
+    return(
+        <nav>
+            <div>
+                <Link   to="/">Home</Link>
+                <Link   to="/about">About Us</Link>
+            </div>
+        </nav>
+    )
+}
+
+export default Navbar;
